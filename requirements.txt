@@ -1,0 +1,48 @@
+# Apriori Market Basket Analysis
+
+## Description
+This project implements Market Basket Analysis using the Apriori algorithm to discover meaningful associations between products purchased together. The extracted rules help identify cross-selling opportunities and customer buying patterns in retail environments.
+
+## Problem Statement
+Retail businesses generate large volumes of transactional data but often lack actionable insights from it. The objective of this project is to apply the Apriori algorithm to identify frequent itemsets and association rules that can support product bundling, shelf optimization, and targeted promotions.
+
+## Business Use Case
+- Product bundling and cross-selling
+- Recommendation systems
+- Store layout optimization
+- Retail analytics and decision support
+
+## Algorithm Used
+- Apriori Algorithm (Association Rule Mining)
+
+## Dataset
+Market Basket Optimisation Dataset  
+Each row represents a transaction, and each column represents an item purchased in that transaction.
+
+## Workflow
+1. Load and explore transactional dataset  
+2. Convert transactions into list format  
+3. Apply Apriori algorithm with defined thresholds  
+4. Extract association rules with support, confidence, and lift  
+5. Filter high-value rules for business relevance  
+6. Visualize and store results  
+
+## Key Metrics
+- Support  
+- Confidence  
+- Lift  
+
+## Key Insights
+- High lift rules indicate strong product associations  
+- Frequently co-purchased items can be bundled  
+- Insights can improve marketing and inventory strategies  
+
+## Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Apyori  
+
+## Project Structure
